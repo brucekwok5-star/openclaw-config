@@ -22,7 +22,7 @@
       ],
       "api": "anthropic-messages",
       "authHeader": true,
-      "apiKey": "sk-cp-Ssq7KhTUX8bJJnroMymIFBn87GWi3K3fmfHpJ2poY4nI5MUUFPeVknVRwI9nCl2SqmfU2kQ-rQwRuRUmZDXUWOuZE_Nvl-voI3yTabGu5C-dK-KhCSA1GbA"
+      "apiKey": "[REDACTED]"
     },
     "ollama": {
       "baseUrl": "http://127.0.0.1:11434/v1",

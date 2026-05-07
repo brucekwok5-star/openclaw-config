@@ -11,7 +11,7 @@ Advanced stock analysis for US stocks combining technical data, news sentiment, 
 Comma-separated US stock tickers: e.g. `NVDA,F,RIG,FSLY,PLUG,INTC,AMZN,NFLX,LYG,PLTR`
 
 ## API Keys Required
-- **iTick API**: Token in `~/.openclaw/credentials/itick.json` OR use directly: `a782c443a2a5493d873850758154e14876bfd88dfb89470b8b97dff36e7938e3`
+- **iTick API**: Token in `~/.openclaw/credentials/itick.json` OR use directly: `[REDACTED_ITICK_TOKEN]`
 - **News**: Google News RSS (free, no key needed)
 
 ## ⚠️ API Notes (STRICT - NO FALLBACKS!)
@@ -35,7 +35,7 @@ Comma-separated US stock tickers: e.g. `NVDA,F,RIG,FSLY,PLUG,INTC,AMZN,NFLX,LYG,
 
 ### Step 2: Get Stock Name from iTick
 - Endpoint: `https://api.itick.org/stock/info?region=US&code=<TICKER>`
-- Headers: `-H "accept: application/json" -H "token: a782c443a2a5493d873850758154e14876bfd88dfb89470b8b97dff36e7938e3"`
+- Headers: `-H "accept: application/json" -H "token: [REDACTED_ITICK_TOKEN]"`
 - Response returns `n` field with stock name (e.g., "NVIDIA Corporation")
 - Use this name for news search - NEVER hardcode stock names!
 - **⏸️ PAUSE 15 SECONDS**

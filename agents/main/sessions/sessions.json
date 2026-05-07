@@ -1,9 +1,9 @@
 {
   "agent:main:main": {
     "sessionId": "355e6e28-ac50-4cab-8e87-07ccd84994b9",
-    "updatedAt": 1778122020577,
+    "updatedAt": 1778147410674,
     "sessionStartedAt": 1778117168676,
-    "lastInteractionAt": 1778122020044,
+    "lastInteractionAt": 1778147410123,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax:cn",
@@ -22,10 +22,10 @@
     },
     "sessionFile": "/Users/jaydensmac/.openclaw/agents/main/sessions/355e6e28-ac50-4cab-8e87-07ccd84994b9.jsonl",
     "compactionCount": 0,
-    "totalTokens": 64236,
-    "inputTokens": 107,
-    "outputTokens": 43,
-    "estimatedCostUsd": 0.0040763399999999995,
+    "totalTokens": 81376,
+    "inputTokens": 127878,
+    "outputTokens": 819,
+    "estimatedCostUsd": 0.07110364500000001,
     "contextTokens": 204800,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>browser-automation</name>\n    <description>Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.</description>\n    <location>~/.openclaw/plugin-skills/browser-automation/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gh-issues</name>\n    <description>Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/gh-issues/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>github</name>\n    <description>Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/github/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Audit and harden hosts running OpenClaw for SSH, firewall, updates, exposure, cron checks, and risk posture.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>node-connect</name>\n    <description>Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/node-connect/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow</name>\n    <description>Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/taskflow/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>taskflow-inbox-triage</name>\n    <description>Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/taskflow-inbox-triage/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather, rain, temperature, and forecasts for locations or travel planning.</description>\n    <location>/opt/homebrew/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -65,12 +65,12 @@
       "version": 0
     },
     "status": "running",
-    "startedAt": 1778122020550,
+    "startedAt": 1778147410639,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1778121974987,
+      "generatedAt": 1778147338490,
       "sessionId": "355e6e28-ac50-4cab-8e87-07ccd84994b9",
       "sessionKey": "agent:main:main",
       "provider": "minimax",
@@ -332,8 +332,8 @@
         ]
       }
     },
-    "cacheRead": 63669,
-    "cacheWrite": 460,
+    "cacheRead": 16811,
+    "cacheWrite": 0,
     "totalTokensFresh": true
   }
 }

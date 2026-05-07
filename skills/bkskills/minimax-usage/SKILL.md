@@ -12,7 +12,7 @@ If login required, credentials stored in: `~/.openclaw/credentials/minimax.json`
 ```json
 {
   "phone": "13143973803",
-  "password": "Z@vpxQV6vKwKS.M"
+  "password": "[REDACTED]"
 }
 ```
 

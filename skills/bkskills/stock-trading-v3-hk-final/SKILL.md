@@ -11,7 +11,7 @@ Advanced stock analysis for Hong Kong stocks combining technical data, news sent
 Comma-separated HK stock codes (without leading zeros): e.g. `6869,9988,992,883,1171,700,2318,1398,0941,1044`
 
 ## API Keys Required
-- **iTick API**: `a782c443a2a5493d873850758154e14876bfd88dfb89470b8b97dff36e7938e3`
+- **iTick API**: `[REDACTED_ITICK_TOKEN]`
 - **News**: Google News RSS (free, no key needed)
 
 ## ⚠️ API Notes (STRICT - NO FALLBACKS!)
@@ -34,7 +34,7 @@ Comma-separated HK stock codes (without leading zeros): e.g. `6869,9988,992,883,
 
 ### Step 2: Get Stock Name from iTick
 - Endpoint: `https://api.itick.org/stock/info?region=HK&code=<CODE>`
-- Headers: `-H "accept: application/json" -H "token: a782c443a2a5493d873850758154e14876bfd88dfb89470b8b97dff36e7938e3"`
+- Headers: `-H "accept: application/json" -H "token: [REDACTED_ITICK_TOKEN]"`
 - Response returns `n` field with stock name (e.g., "Alibaba Group Holding")
 - Use this name for news search - NEVER hardcode stock names!
 - **⏸️ PAUSE 12 SECONDS**
