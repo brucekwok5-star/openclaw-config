@@ -1,0 +1,6 @@
+{
+  "_note": "This is a template. Copy to openclaw.json and fill in your actual credentials.",
+  "gateway": {},
+  "skills": {},
+  "agents": {}
+}

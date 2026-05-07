@@ -1,0 +1,35 @@
+# Credentials & secrets
+openclaw.json
+openclaw.json.bak*
+openclaw.json.last-good
+openclaw.json.pre-restore
+update-check.json
+exec-approvals.json
+
+# Auth files
+agents/main/agent/auth-profiles.json
+agents/main/agent/auth-state.json
+
+# Identity & device
+identity/
+
+# Sessions & logs
+agents/main/sessions/*.jsonl
+agents/main/sessions/*.jsonl.lock
+agents/main/sessions/*.checkpoint.*
+agents/main/sessions/.usage-cost-cache.json
+logs/
+memory/
+
+# Media & temp
+media/
+tmp/
+canvas/
+
+# System
+.DS_Store
+*.lock
+service-env/
+devices/
+workspace/
+browser/
